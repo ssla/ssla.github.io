@@ -1,0 +1,76 @@
+<nav class="navbar navbar-static-top navbar-dark bg-inverse">
+  <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+      &#9776;
+  </button>
+  <div class="hidden-md-up" style="display: inline;">
+    <span class="navbar-brand-mobile">{{"NAVBAR.SLAA" | translate}}</span>
+  </div>
+  <div class="collapse navbar-toggleable-md hidden-md-up" id="exCollapsingNavbar2">
+    <ul class="nav navbar-nav collapsed-menu">
+        <a class="nav-item nav-link"></a>
+        <a class="nav-item nav-link" [routerLink]="['/']">{{"NAVBAR.HOME" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/submissions']">{{"NAVBAR.SUBMISSION" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/program']">{{"NAVBAR.PROGRAM" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/comittee']">{{"NAVBAR.COMITTEE" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/registration']">{{"NAVBAR.REGISTRATION" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/venue']">{{"NAVBAR.VENUE" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/banquet']">{{"NAVBAR.BANQUET" | translate}}</a>
+        <a class="nav-item nav-link" [routerLink]="['/previous-editions']">{{"NAVBAR.PREVIOUS_EDITIONS" | translate}}</a>
+    </ul>
+  </div>
+
+  <div class="container hidden-sm-down">
+    <a class="navbar-brand" [routerLink]="['/']">{{"NAVBAR.SLAA" | translate}}</a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/']">{{"NAVBAR.HOME" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/submissions']">{{"NAVBAR.SUBMISSION" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/program']">{{"NAVBAR.PROGRAM" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/comittee']">{{"NAVBAR.COMITTEE" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/registration']">{{"NAVBAR.REGISTRATION" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/venue']">{{"NAVBAR.VENUE" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/banquet']">{{"NAVBAR.BANQUET" | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/previous-editions']">{{"NAVBAR.PREVIOUS_EDITIONS" | translate}}</a>
+      </li>
+    </ul>
+
+    <div class="nav navbar-nav pull-xs-right">
+      <a class="nav-item nav-link" (click)="changeLanguage('es')">
+        <img border="0" alt="Español" src="images/es.png" width="20" height="20">
+      </a>
+      <span class="nav-item nav-link"  [style.marginLeft.px]="3">|</span>
+      <a class="nav-item nav-link" (click)="changeLanguage('en')" [style.marginLeft.px]="3">
+        <img border="0" alt="English" src="images/en.png" width="20" height="20">
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <router-outlet></router-outlet>
+  </div>
+  <hr>
+</div>
+
+<div class="container">
+  <div class="row">
+    <footer>
+      <p>© SSLA 2016</p>
+    </footer>
+  </div>
+</div>

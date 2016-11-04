@@ -1,0 +1,281 @@
+{
+  "NAVBAR": {
+    "SLAA": "ILAS",
+    "HOME": "Inicio",
+    "SUBMISSION": "Convocatoria",
+    "PROGRAM": "Programa",
+    "COMITTEE": "Invitados",
+    "VENUE": "Lugar",
+    "REGISTRATION": "Inscripción",
+    "PREVIOUS_EDITIONS": "Ediciones Previas",
+    "BANQUET": "Almuerzo"
+  },
+  "BANNER": {
+    "TITLE_PT1": "Jornadas de Investigación de Ciencias",
+    "TITLE_PT2": "de la Computación",
+    "DATES": "24 - 28 de Noviembre"
+  },
+  "INTRO": {
+    "TITLE": "Acerca de ILAS 2016",
+    "DESCRIPTION_1": "ILAS 2016 es la segunda versión de las Jornadas de Investigación de Ciencias de la Computación, organizado por el centro de investigación MEMI de la Universidad Mayor de San Simón.",
+    "DESCRIPTION_2": "Las jornadas pretenden brindar a los estudiantes un resumen sobre tópicos relevantes y problemas de investigación en el área de lenguajes de programación e ingeniería de software. Las jornadas permitirán a investigadores líderes en ingeniería de software dar consejos y guiar a los estudiantes, en base a su experiencia personal y conocimiento.",
+    "DESCRIPTION_3": "Una de las metas de estas jornadas es proveer un ambiente de apoyo y a la vez inquisitivo, donde los estudiantes, profesores, investigadores y profesionales puedan presentar sus trabajos. Las jornadas también ayudará a los participantes a establecer una red con sus pares locales y con investigadores internacionales del área.",
+    "DESCRIPTION_4": "Hay diferentes eventos donde participar:",
+    "EVENTS": {
+      "EVENT_1": "<b>Tutoriales:</b> Los tutoriales cubrirán temas básicos sobre lenguajes de programación e ingeniería de software. Los tutoriales serán dictados por expertos internacionales del área.",
+      "EVENT_2": "<b>Talks:</b> Los charlas cubrirán temas avanzados en ingeniería de software.",
+      "EVENT_4": "<b>Talleres:</b> Las Jornadas proveen cupos a los participantes para que puedan mostrar sus trabajos.  Los participantes podrán discutir los objetivos, metodología y resultados de sus proyectos en curso y recibirán una guía y opiniones que les permitirán mejorar su trabajo. Invitamos a los estudiantes a que presenten sus tesis o proyectos. Se dará un amplio espacio para que los estudiantes puedan interactuar con los asistentes para responder preguntas, discutir sobre el proyecto y recibir sugerencias.",
+      "EVENT_5": "<b>Paneles de discusión:</b> Las jornadas incluirán diferentes paneles donde se discutirá temas como: Ingenieria de Software, Bases de Datos, ICPC y la Investigacion en Bolivia."
+    },
+    "DESCRIPTION_5": "Debido al caracter internacional de las charlas, se recomienda que los asistentes tengan un buen nivel de inglés.",
+    "IMPORTANT_DATES": {
+      "TITLE": "Fechas Importantes",
+      "DATES": {
+        "DATE_1": "Fecha límite para registro: 11 de Noviembre, 2016",
+        "DATE_2": "Fecha límite de aplicacion a talleres: 10 de Noviembre, 2016",
+        "DATE_3": "Fecha de notificacion de aceptacion a talleres: 11 de Noviembre, 2016"
+      }
+    }, 
+    "DESCRIPTION_6": "La escuela no tiene costo para estudiantes que participen activamente en los talleres. Los tutoriales estan enfocados a estudiantes comprometidos de pregrado y postgrado en Latinoamérica, pero estudiantes de cualquier parte del mundo pueden participar. Los profesionales tambien estan bienvenidos a participar."
+  },
+  "REGISTRATION": {
+    "TITLE": "Inscripción",
+    "DESCRIPTION": "Las jornadas son gratis para todos los estudiantes que presenten su trabajo en los talleres.<br/>Los tutoriales están dirigidos principalmente a estudiantes de pregrado y postgrado de Latinoamérica. Sin embargo, estudiantes de todas partes del mundo son bienvenidos si desean participar. Los profesionales también son bienvenidos a participar.",
+    "PRICES": "Precios",
+    "PRICES_SHEET": {
+      "PRICE_1": "Tutorial",
+      "PRICE_2": "Charla",
+      "FREE": "Gratis",
+      "STUDENT": "Estudiante",
+      "PROFESIONAL": "Profesional",
+      "EACH": "Cada uno",
+      "ALL": "Todos los tutoriales"
+    },
+    "REGISTERED_PEOPLE": "Las personas inscritas en cualquier tutorial o en las charlas pueden participar en los paneles de discusión sin cargo alguno.",
+    "FORM": "<b>Becas:</b> los estudiantes que quieran aplicar a una beca deben hacerlo mediante el formulario siguiente: <a href=\"http://goo.gl/forms/Yj6XJe2A1iVh7oJL2\">FORMULARIO BECAS<a>",
+    "QUESTIONS": "Envíe cualquier pregunta sobre las jornadas al email:...",
+    "SCHOLARSHIPS": "El registro a un tutorial debe ser hecho con la secretaria de MEMI-UMSS. Si no vive en Cochabamba, por favor envie un correo a marcelo@memi.umss.edu.bo.<br/>Las personas que se registran en un tutorial tienen acceso libre a los talleres y paneles."
+  },
+  "PROGRAM": {
+    "SCHEDULE": "Schedule",
+    "TALKS": {
+      "TITLE": "Keynotes y Charlas",
+      "SCHEDULE": "16:30 - 18:00 (Lunes a Viernes)",
+      "SESSIONS": [
+        {
+          "NAME": "Lunes: Visualizacion de la Informacion",
+          "TALKS": [
+            {
+              "TITLE": "Uso de visualizaciones word-sized para analizar datos de Eye-Tracking",
+              "AUTHOR": "Yasett Acurana",
+              "DESCRIPTION": "El eye-tracking se encarga de estudiar los movimientos visuales que realizamos al mirar un determinado elemento. Para transmitir resultados de estudios de eye-tracking, típicamente necesitamos ordenarlos y resumirlos. Plasmar estos datos en tablas y gráficos impresos es muy útil, pero éstos se ven limitados por el espacio y requieren saltar entre el párrafo y los gráficos/tablas repetidas veces. Como alternativa, las visualizaciones word-sized son versiones pequeñas de otras visualizaciones ya establecidas, que facilitan la integración con los párrafos y reducen el impacto de la limitación de espacio. En la charla, exploraremos las visualizaciones word-sized para analizar datos de un estudio de eye-tracking.",
+              "ID1": "keynote-1",
+              "ID2": "kn-1"
+            },
+            {
+              "TITLE": "Exploración Visual de Eventos Noticiosos Extraídos de Social Media en su Contexto Spacio-Temporal",
+              "AUTHOR": "Vanessa Peña Araya",
+              "DESCRIPTION": "Las plataformas de social media se han convertido en enormes repositorios de información acerca de lo que pasa en el mundo y como la gente reacciona a esos eventos. Sin embargo, extraer información de estas plataformas no es una tarea fácil ya que todos los días se publican millones de mensajes. Por otra parte, estos documentos son muy volátiles por lo que es difícil recuperarlos después de pasado un tiempo. Por lo tanto, para poder sacar información útil de estos datos es necesario desarrollar formas eficientes y eficaces de guardarlos y explorarlos. En esta charla presentaremos Galean, una herramienta de visualización de eventos noticiosos extraídos desde Twitter en su contexto geo-temporal, además del modelo subyacente que los representa. En particular, nuestro enfoque es considerar las ubicaciones de un evento como entidades que se relacionan entre sí y que dan forma a la evolución de un evento en el tiempo.",
+              "ID1": "keynote-3",
+              "ID2": "kn-3"
+            },
+            {
+              "TITLE": "Software Visualization",
+              "AUTHOR": "",
+              "DESCRIPTION": "",
+              "ID1": "keynote-10",
+              "ID2": "kn-10"
+            }
+          ]
+        },
+        {
+          "NAME": "Martes: Analisis de Software",
+          "TALKS": [
+            {
+              "TITLE": "Analisis de Programas",
+              "AUTHOR": "Jocelyn Simmonds",
+              "DESCRIPTION": "El análisis formal de programas busca descubrir y/o inferir hechos acerca de programas, permitiendo optimizar, transformar y verificarlos. El objetivo es construir herramientas que ayuden a desarrolladores entender sus programas y detectar errores. Existen tres familias de técnicas de análisis: 1) estático, donde se analizan los programas sin ejecutarlos, en tiempo de compilación, 2) dinámico, donde se analizan trazas de ejecución mientras estos corren, y 3) híbrido, que combinan aspectos estáticos y dinámicos. Por un tema de escalabilidad, el análisis estático es conservadores: un estado abstracto representa uno o más estados concretos. En cambio, el análisis dinámico es mas preciso, dado que se conoce el estado concreto del programa. En esta charla, daré una visión general de análisis formal de programas, y presentare algunos desafíos actuales.",
+              "ID1": "keynote-2",
+              "ID2": "kn-2"
+            },
+            {
+              "TITLE": "SPY2: Dynamic Analysis at the reach of everyone",
+              "AUTHOR": "Alejandro Infante",
+              "DESCRIPTION": "Exposing the runtime behavior of an application is a really important practice to understand software and evaluate its quality. Unfortunately, creating these tools usually involves modifying the virtual machine and/or the internals of the system. We present a novel approach that allow programmers to create their own customized profiler that address their own needs minimizing their exposure to the internals of the system.",
+              "ID1": "keynote-5",
+              "ID2": "kn-5"
+            }
+          ]
+        },
+        {
+          "NAME": "Miercoles: Emp. Soft.  Engineering",
+          "TALKS": [
+            {
+              "TITLE": "Performance Regression Prediction",
+              "AUTHOR": "Juan Pablo Sandoval Alcocer",
+              "DESCRIPTION": "Los cambios en el código fuente pueden introducir regresiones en performance.  Estas regresiones se refieren a situaciones donde el rendimiento de un programa se degrada en comparación a versiones anteriores del mismo, aunque la nueva version funcione correctamente. Por ejemplo, cuando un version nuevo es mas lenta que la anterior, pero sigue funcionando correctamente.<br/>Ejecutar puntos de referencia en cada version es una técnica tradicional utilizada para identificar regresiones en etapas tempranas. Sin embargo, a pesar de ser efectiva, esta técnica exhaustiva es difícil de llevar a cabo en la práctica, principalmente por la alta sobrecarga que esta actividad demanda. En esta charla se hablara las diferentes técnicas que existen para predecir si una nueva versión puede introducir una regression o no (sin ejecutar costosos puntos de referencia). El objetivo de estas técnicas es reducir la sobrecarga que se requiere para monitorear el rendimiento de cada versión, ejecutando los puntos de referencia solo en las versiones que contengan cambios costosos de código fuente",
+              "ID1": "keynote-6",
+              "ID2": "kn-6"
+            }, {
+              "TITLE": "Idioms",
+              "AUTHOR": "Marcelo",
+              "DESCRIPTION": "",
+              "ID1": "keynote-9",
+              "ID2": "kn-9"
+            }
+          ]
+        },
+        {
+          "NAME": "Jueves: Emp. Soft.  Engineering",
+          "TALKS": [
+            {
+              "TITLE": "Do Developers Use Your Tool As You Expected?",
+              "AUTHOR": "Juraj Kubelka",
+              "DESCRIPTION": "Analyzing how software engineers use development tools is fundamental to better understanding how engineers carry out their daily tasks. Especially tool designers need to know if their tools are used the way they envisioned it.<br/>This talk presents an evaluation of how software engineers use SPOTTER—a search engine—in practice. To archives this, we remotely gathered user actions and developed a visual alphabet, that aids the analysis.<br/>We found common usage patterns and identified underused SPOTTER features. Such findings are essential for improving SPOTTER.",
+              "ID1": "keynote-4",
+              "ID2": "kn-4"
+            },
+            {
+              "TITLE": "VisualID: Usando iconos auto-generados para resolver problemas en ingeniería de software",
+              "AUTHOR": "Juan Pablo Sandoval Alcocer",
+              "DESCRIPTION": "Glyphs son iconos auto-generados comúnmente usados en la identificación de objetos. A pesar de ser populares en la comunidad de interacción humano computador, los glyphs son raramente usados para resolver problemas en ingeniería de software. En esta charla presentaremos la técnica VisualID-glyph para resolver dos problemas comunes durante el mantenimiento del software: 1) identificar classes que tienen las mismas dependencias y clases con métodos similares.",
+              "ID1": "keynote-7",
+              "ID2": "kn-7"
+            }
+          ]
+        }
+      ]
+    },
+    "EVENTS": [{
+      "NAME": "Tutoriales",
+      "TALKS": [
+        {
+          "TITLE": "Web Pharo",
+          "AUTHOR": "Luc Fabresse & Juraj Kubelka",
+          "DESCRIPTION": "",
+          "ID1": "tuto-0",
+          "ID2": "t-0",
+          "SCHEDULES": "8:00 - 9:45 (Lunes a Viernes)"
+        },
+        {
+          "TITLE": "Programación Estadística",
+          "AUTHOR": "Jocelyn Simmonds & Yasett Acurana",
+          "DESCRIPTION": "Hoy en día, es necesario manejar herramientas para procesar y analizar datos. R es una de estas herramientas, que rápidamente se ha convertido en la lengua franca de la estadística, permitiendo escribir programas que leen, manipulan y analizan datos. En este tutorial, veremos los conceptos básicos de R. Empezaremos con variables y operaciones básicas, pasando a estructuras de datos tales como vectores, matrices, data frames y listas. También exploraremos las capacidades gráficas de R.",
+          "ID1": "tuto-1",
+          "ID2": "t-1",
+          "SCHEDULES": "10:00 - 12:00 (Lunes a Viernes)"
+        },
+        {
+          "TITLE": "Data Mining con Python y Jupyter",
+          "AUTHOR": "Vanessa Peña Araya & Juan Pablo Sandoval Alcocer",
+          "DESCRIPTION": "La idea del tutorial es aprender lo básico de Python para hacer tareas de procesamiento y minería de datos. Para esto usaremos Jupyter (<a href=\"http://jupyter.org/\">http://jupyter.org/</a>) y exploraremos las ventajas de usar esta herramienta para compartir código y crear widgets interactivos para analizar datos. Al final del tutorial, trabajaremos en un proyecto en donde se utilizarán las herramientas aprendidas.",
+          "ID1": "tuto-2",
+          "ID2": "t-2",
+          "SCHEDULES": "14:15 - 16:00 (Lunes a Viernes)"
+        }
+      ]
+    }, {
+      "NAME": "Paneles de Discusion",
+      "TALKS": [
+        {
+          "TITLE": "Ing. de Software",
+          "AUTHOR": "",
+          "DESCRIPTION": "",
+          "ID1": "pane-1",
+          "ID2": "p-1",
+          "SCHEDULES": "Lunes: 10:00 - 12:00"
+        },
+        {
+          "TITLE": "Bases de Datos",
+          "AUTHOR": "",
+          "DESCRIPTION": "",
+          "ID1": "pane-1",
+          "ID2": "p-1",
+          "SCHEDULES": "Martes: 10:00 - 12:00"
+        },
+        {
+          "TITLE": "ICPC - Siguientes pasos",
+          "AUTHOR": "",
+          "DESCRIPTION": "",
+          "ID1": "pane-1",
+          "ID2": "p-1",
+          "SCHEDULES": "Jueves: 10:00 - 12:00"
+        },
+        {
+          "TITLE": "Situación de la investigación científica en Bolivia",
+          "AUTHOR": "",
+          "DESCRIPTION": "",
+          "ID1": "pane-1",
+          "ID2": "p-1",
+          "SCHEDULES": "Viernes: 10:00 - 12:00"
+        }
+      ]
+    }],
+    "WORKSHOP": {
+      "TITLE": "Talleres",
+      "SCHEDULE": "14:15 - 16:00 (Martes, Miercoles y Viernes)",
+      "PENDING": "Los horarios se publicaran cuando cierre el proceso de envio de propuestas de charlas."
+    }
+  },
+  "VENUE": {
+    "TITLE": "Lugar",
+    "MEMI_ADDRESS": "MEMI, Universidad Mayor de San Simon. Cochabamba, Bolivia",
+    "HOTELS": "Hoteles",
+    "HOTELS_DESCRIPTION": "Esta informacion se actualizara pronto...",
+    "TRANSPORT": "Transport",
+    "TRANSPORT_DESCRIPTION": "Esta informacion se actualizara pronto..."
+  },
+  "COMITTEE": {
+    "TITLE": "Invitados",
+    "GUEST_1": "",
+    "GUEST_1_DESCRIPTION": "I am an assistant professor in the <a href=\"http://car.mines-douai.fr/\">CAR research theme</a> of the research unit <a href=\"http://ia.ur.mines-douai.fr/en/home/\">UR IA</a> in the <a href=\"http://ia.mines-douai.fr/\">IA</a> departement of <a href=\"http://www2.mines-douai.fr/index.php\">Mines Douai</a> (a Higher School of Engineering). In 2015, I obtained the diploma called \"Habilitation à Diriger les Recherches\" (HDR for short) which stands for \"Ability to Supervise Research\".<br/>My researches aims at easing the development of distributed and constrained software through new languages and tools. I focus on dynamic languages and more specifically Smalltalk through the Pharo implementation. Pharo is a really great platform to experiment new ideas. I also teach some programming related courses since 2003. And since 2010, I am a board member of the <a href=\"http://www.esug.org/wiki/\">European Smalltalk User Group</a> (Esug).",
+    "GUEST_2": "",
+    "GUEST_2_DESCRIPTION": "I am a PhD student at the University of Chile since 2013. Prior to this, I got a master degree in software engineering at the Czech technical university in Prague. Since my master degree I worked in several companies as software engineer, software developer, software architect, and business analyst. Currently, apart from doing the PhD, I am an active contributor to Pharo.<br/>I am interested in improving Integrated Development Environments (IDEs) and Empirical Software Engineering. In particular I have been investigating how to increase developer productivity, and how to diminish learning and navigation time when working on a software change task.",
+    "GUEST_3": "",
+    "GUEST_3_DESCRIPTION": "PhD candidate in Computer Science, DCC, University of Chile. I am currently in my fourth year. I’m interested in Visual Analytics. I am particularly interested in working on projects that brings together people from different fields.<br/>I love teaching. I’ve been assistant professor several times and I participate on teaching the Scratch programming language to kids. I’m part of <a href=\"http://www.c-100.cl/\">c^100</a>, an organization that works towards having more computer science in Chilean schools. We are also interested in showing that gender is nor a factor to like computer science or to be successful on this career.",
+    "GUEST_4": "",
+    "GUEST_4_DESCRIPTION": "Alumno de Magister en Computación en la Universidad de Chile. Dedicado principalmente a la Ingeniería de Software, donde desarrolla investigación en el area, particularmente en análisis dinámico de software. Además posee intereses en el emprendimiento, educación y es miembro activo de la comunidad de Pharo desde el 2013.",
+    "GUEST_5": "",
+    "GUEST_5_DESCRIPTION": "Jocelyn Simmonds es profesora asistente del Departamento de Ciencia de la Computación de la Universidad de Chile desde 2014. Recibió el grado de Doctora en Ciencias de la Computación en la Universidad de Toronto, Canadá, el grado de Magíster en Ciencias de la Computación en la Universidad Libre de Bruselas, y el titulo de Ingeniero Civil en Computación en la Universidad de Chile. Sus intereses de investigación están en las áreas de ingeniería de software, especialmente métodos formales, verificación y validación de programas, y el desarrollo de aplicaciones Web y móviles. Ha publicado su investigación en revistas científicas tales como Journal of Computing, IEEE Transactions on Services Computing. Además, es co-⁠fundadora de WSCCC, un grupo de mujeres en computación en Chile, y el 2015 co­organizo LAtINiTY, el primer encuentro latinoamericano para mujeres en tecnología (<a href=\"​http://www.latinity.info/\">​http://www.latinity.info/</a>​). Por esta labor, fue elegida entre los 100 líderes jóvenes de Chile de la Revista Sábado 2015.",
+    "GUEST_6": "",
+    "GUEST_6_DESCRIPTION": "I'm a PhD student in Computer Science at the University of Chile, member of the Pleiad Research Laboratory. My research interests lie in software engineering, more specifically in the fields of software maintenance, mining software repositories, software performance and software visualization. I currently follow two main research tracks: 1) mining static and dynamic information of source code repositories to understand and improve different aspects of the development process and 2) discover approaches, techniques, and tools to improve the way that we build and maintain software. I also have additional interests in empirical software engineering and programming languages. I got graduated as a Systems Engineer at the Universidad Mayor de San Simon, Bolivia, in 2010. Also I worked in outsourcing projects developing and designing applications for distributed environments including desktop, web and mobile.",
+    "GUEST_7_DESCRIPTION": "Es estudiante del Magíster en Tecnologías de la Información de la Universidad de Chile. Anteriormente recibió el título de Ingeniería de Sistemas de la Universidad Mayor de San Simón en Cochabamba, Bolivia, donde se tituló por Excelencia Académica.<br/>Cuenta con cuatro certificaciones Microsoft MTA y la certificación Microsoft Certified Professional.<br/>Durante mayo y junio de 2016 realizó una visita de investigación a la Universidad de Stuttgart, Alemania, donde trabajó en proyectos del Centro de Visualización VISUS.<br/>Actualmente, realiza distintas actividades de voluntariado como: dar mentoría en la plataforma online Assembled, participar del proyecto Code Recommenders de la fundación Eclipse (desarrollando features y resolviendo defectos), entre otras.",
+    "FRANCE": "Francia",
+    "CZECH_REPUBLIC": "Republica Checa"
+  },
+  "SUBMISSION": {
+    "TITLE": "Llamado a Presentacion de Trabajos",
+    "GOAL_AND_SCOPE": "Alcance y Objetivos",
+    "GOAL_AND_SCOPE_DESCRIPTION": "Las Jornadas de Investigación en Ciencias de la Computación 2016, es un evento importante en el área de Ciencias de la Computación a nivel local. En esta versión, se espera atraer investigadores, estudiantes con proyectos de investigación para titulación y profesores del interior del país, buscando acrecentar la comunicación y divulgación de aspectos relacionados a los tópicos de interés. Así mismo, también se espera la visita de importantes investigadores de universidades del exterior del país con quienes se espera un enriquecimiento muy alto en aspectos del trabajo y problemas de la investigación en el área.<br/>En el marco de este evento, se dispone espacios que permiten la presentación y divulgación de trabajos de investigación con la finalidad de lograr una retroalimentación de la comunidad de investigadores presente. Esta versión de las Jornadas de Investigación en Ciencias de la Computación 2016, no será un lugar de encuentro únicamente para los trabajos de investigación con un material de publicación como respaldo, sino, sobre todo de lograr una retroalimentación a los trabajos de investigación en curso o proyectados con el afán de lograr opiniones valiosas para su efectiva realización.",
+    "TOPICS":"Temas de Interes",
+    "TOPICS_DESCRIPTION": "Los temas de interés en los cuales deben estar enmarcados los trabajos/ proyectos/ investigaciones concluidas o parcialmente concluidas/ o proyectadas, son:",
+    "TOPICS_LIST": "<ul><li>Bases de datos y sistemas para persistencia de datos.</li><li>Ingeniería de software</li><li>Patrones y Arquitectura de software</li><li>Genericidad/Seguridad/Técnicas en Lenguajes de Programación</li><li>Testing/Debugging.</li><li>Aplicación/Complejidad de Algoritmos de software</li><li>Procesamiento de Imágenes</li></ul>",
+    "IMPORTANT_DATES": "Fechas Importantes",
+    "IMPORTANT_DATES_1": "Registro de trabajos: 10 de Noviembre, 2016",
+    "IMPORTANT_DATES_2": "Notificación de aceptación: 11 de Noviembre, 2016",
+    "IMPORTANT_DATES_3": "Programación de presentaciones: 14 de Noviembre, 2016",
+    "SUBMISSION": "Información para el envío de Resúmenes de Trabajos",
+    "SUBMISSION_DESCRIPTION": "<ul><li>Los resúmenes o abstracts de los trabajos pueden ser escritos en espa˜nol o inglés y deben ser enviados en formato PDF. a las direcciones: <ul><li>jsandova@dcc.uchile.cl</li><li>vladimir@memi.umss.edu.bo</li><li>marcelo@memi.umss.edu.bo</li></ul></li> <li>Los trabajos que se propongan deben presentar proyectos/resultados de investigación originales o reportes con experiencias relevantes. Se admiten proyectos/trabajos publicados o en proceso de evaluación para otras conferencias y/o revistas.</li><li>La extensión máxima de los resúmenes o abstracts de los proyectos/trabajos de investigación es de 1 página, incluyendo figuras, referencias bibliográficas. (márgen izq/der de 3 cm., interlineado simple y tipo de fuente Times.</li><li>Es requisito para los proponentes registrarse en las jornadas, para la presentación de los trabajos solicitados. (ver Información de registro de participantes)</li></ul>",
+    "COMITTEE": "Comité académico",
+    "COMITTEE_DESCRIPTION": "<ul><li>Vladimir Costas Jaúregui, Universidad Mayor de San Simón.</li><li>Marcelo Flores Solíz, Universidad Mayor de San Simón.</li><li>Juan Pablo Sandoval, Universidad de Chile.</li><li>Alexandre Bergel, Universidad de Chile.</li><li>Luc fabresse, Ecole des Mines de Douai, Institut Mines Telecom.</li><li>Lucio Salgado, Universidad Técnica de Oruro.</li><li>Pedro Real, Universidad de Sevilla.</li></ul>",
+    "OTHER_TALKS": "Llamados adicionales",
+    "SHOW_PROJECT": "Convocatoria para participar en la sesión \"Muestra tu Proyecto\"",
+    "SHOW_PROJECT_DESCRIPTION": "Invitamos a estudiantes a que presenten sus tesis u otros proyectos en que estèn trabajando. Se dará un amplio espacio para que los estudiantes puedan interactuar con los asistentes para responder preguntas, discutir sobre el proyecto y recibir sugerencias. Para participar los estudiantes necesitan enviar un resumen de charla propueta (acerca de su proyecto) a jsandova@dcc.uchile.cl y marcelo@memi.umss.edu.bo. Se invita especialmente a aquellos estudiantes que estén próximos a registrar sus temas de tesis en sus respectivas universidades.",
+    "PANELS": "Convocatoria para participar en los paneles de discusión",
+    "PANELS_0": "Todos los participantes están invitados a formar parte de los paneles de discusión y formular preguntas o hacer comentarios a los panelistas durante la sesión. Docentes y profesionales son bienvenidos a postularse como panelistas. Para ser parte de los paneles necesita enviar un correo electronico a jsandova@dcc.uchile.cl, vladimir@memi.umss.edu.bo y marcelo@memi.umss.edu.bo.",
+    "PANELS_1": "Este año las jornadas presentarán los siguientes paneles de discusión: Ingeniería de Software, Bases de Datos, ICPC y la Investigación en Bolivia",
+    "STUDENTS": "Students"
+  },
+  "BANQUET": {
+    "TITLE": "Almuerzo",
+    "DESC_1": "El miércoles los participantes están invitados a participar del banquete oficial del evento. El precio de registro no cubre el banquete, por lo que cada participante será responsable por su consumo.",
+    "DESC_2": "Dado que es necesario hacer reservaciones, por favor necesitamos que confirmes tu participación al momento de inscribirte al evento.",
+    "DESC_3": "Lugar: Aún no se ha decidido el lugar."
+  },
+  "PREVIOUS_EDITIONS": {
+    "TITLE": "Ediciones Previas",
+    "DESCRIPTION": "La version 2016 de las Jornadas de Investigacion en ciencias de la computación fue precedida por:",
+    "EDITION_1": "Jornadas de Investigacion en ciencias de la computación (ILAS) 2015",
+    "EDITION_1_DESC": "24-28 de Noviembre, Cochabamba, Bolivia"
+  }
+}

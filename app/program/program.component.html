@@ -1,0 +1,54 @@
+<h2>{{"NAVBAR.PROGRAM" | translate}}</h2>
+
+<div class="text-justify">
+    <h5><b>{{keynotes.TITLE | translate}}</b></h5>
+    <p class="card-text">{{'PROGRAM.SCHEDULE' | translate}}: {{keynotes.SCHEDULE}}</p>
+    <div id="accordion" role="tablist" aria-multiselectable="true" *ngFor="let session of keynotes.SESSIONS">
+        <p>{{session.NAME | translate}}</p>
+        <div class="card" *ngFor="let talk of session.TALKS">
+            <div class="card-header" role="tab" id={{talk.ID1}}>
+                <h6>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#{{talk.ID2}}" aria-expanded="true" aria-controls=talk.ID2>
+                    {{talk.TITLE}}
+                    </a>
+                </h6>
+                <h6 class="text-muted">{{talk.AUTHOR}}</h6>
+            </div>
+
+            <div id={{talk.ID2}} class="collapse" role="tabpanel" [attr.aria-labelledby]=talk.ID1>
+                <div class="card-block">
+                    <p class="card-text" [innerHTML]="talk.DESCRIPTION"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-justify" *ngFor="let event of events">
+    <h5><b>{{event.NAME | translate}}</b></h5>
+    <div id="accordion" role="tablist" aria-multiselectable="true" *ngFor="let talk of event.TALKS">
+        <div class="card">
+            <div class="card-header" role="tab" id={{talk.ID1}}>
+                <h6>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#{{talk.ID2}}" aria-expanded="true" aria-controls=talk.ID2>
+                    {{talk.TITLE}}
+                    </a>
+                </h6>
+                <h6 class="text-muted">{{talk.AUTHOR}}</h6>
+                <p class="card-text">{{'PROGRAM.SCHEDULE' | translate}}: {{talk.SCHEDULES}}</p>
+            </div>
+
+            <div id={{talk.ID2}} class="collapse" role="tabpanel" [attr.aria-labelledby]=talk.ID1>
+                <div class="card-block">
+                    <p class="card-text" [innerHTML]="talk.DESCRIPTION"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-justify">
+    <h5><b>{{'PROGRAM.WORKSHOP.TITLE' | translate}}</b></h5>
+    <p class="card-text">{{'PROGRAM.SCHEDULE' | translate}}: {{'PROGRAM.WORKSHOP.SCHEDULE' | translate}}</p>
+    <p class="card-text">{{'PROGRAM.WORKSHOP.PENDING' | translate}}</p>
+</div>

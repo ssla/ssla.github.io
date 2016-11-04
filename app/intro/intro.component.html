@@ -1,0 +1,31 @@
+<div class="hero-bg">
+    <div class="hero-content text-center">
+    <h2>{{"BANNER.TITLE_PT1" | translate}}</h2>
+    <h2>{{"BANNER.TITLE_PT2" | translate}}</h2>
+    <p>{{"BANNER.DATES" | translate}}</p>
+    </div>
+</div>
+
+<div class="text-justify">
+    <h2>{{ "INTRO.TITLE" | translate }}</h2>
+    <p>{{ "INTRO.DESCRIPTION_1" | translate }}</p>
+    <p>{{ "INTRO.DESCRIPTION_2" | translate }}</p>
+    <p>{{ "INTRO.DESCRIPTION_3" | translate }}</p>
+    <p>{{ "INTRO.DESCRIPTION_4" | translate }}</p>
+    <ul>
+        <li [innerHTML]="'INTRO.EVENTS.EVENT_1' | translate"></li>
+        <li [innerHTML]="'INTRO.EVENTS.EVENT_2' | translate"></li>
+        <li [innerHTML]="'INTRO.EVENTS.EVENT_4' | translate"></li>
+        <li [innerHTML]="'INTRO.EVENTS.EVENT_5' | translate"></li>
+    </ul>
+
+    <p>{{ "INTRO.DESCRIPTION_5" | translate }}</p>
+        
+    <h5>{{ "INTRO.IMPORTANT_DATES.TITLE" | translate }}</h5>
+    <ul>
+        <li [innerHTML]="'INTRO.IMPORTANT_DATES.DATES.DATE_1' | translate"></li>
+        <li [innerHTML]="'INTRO.IMPORTANT_DATES.DATES.DATE_2' | translate"></li>
+        <li [innerHTML]="'INTRO.IMPORTANT_DATES.DATES.DATE_3' | translate"></li>
+    </ul>
+    <p [innerHTML]="'INTRO.DESCRIPTION_6' | translate"></p>
+</div>

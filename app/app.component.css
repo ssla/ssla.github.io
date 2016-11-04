@@ -1,0 +1,12 @@
+.collapsed-menu .nav-link {
+    float: none;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.navbar-brand-mobile {
+    font-size: 1.25rem;
+    color: #fff;
+}
